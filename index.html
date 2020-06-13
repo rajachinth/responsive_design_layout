@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="resources/css/mediaQueries.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalized.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -12,33 +14,38 @@
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
         <header>
             <nav>
-                <div class="row-center" >
-                    <img src="resources/img/brand_logo.jpg" alt="brand_logo" class="header-brand-logo" >
-                    <ul class="header-navbar-list">
-                        <li><a href="#" >Home</a></li>
-                        <li><a href="#" >Hot List</a></li>
-                        <li><a href="#" >Shopping Cart</a></li>
-                        <li><a href="#" >User</a></li>
-                    </ul>
+                <div class="row-center nav-bar" >
+                    <div>
+                        <img src="resources/img/brand_logo.jpg" alt="brand_logo" class="header-brand-logo" >
+                        <ul class="header-navbar-list">
+                            <li><a href="#" >Home</a></li>
+                            <li><a href="#" >Hot List</a></li>
+                            <li><a href="#" >Shopping Cart</a></li>
+                            <li><a href="#" >User</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <div class="header-title-content">
                 <h1>Go live! with your favourite book</h1>
-                <a class="btn btn-login" href="#">Log In</a>
-                <a class="btn btn-hotlist" href="#">Hot List</a>
+                <div>
+                    <a class="btn btn-login" href="#">Log In</a>
+                    <a class="btn btn-hotlist" href="#">Hot List</a>
+                </div>
             </div>
         </header>
-        
         <section class="section-one">
-            <div class="row-center">
+            <div>
                 <h2>
                     Welcome to the HOT&#45;LIST
                 </h2>
+            </div>
+            <div class="row-center">
                 <p class="main-content">
                     Hot-List is a home of vintage collections of books where mind speak with you, it's offered at affordable price tag, subscribe now at maximum discount as we offer prime and non-prime membership and enjoy benefits at ease
                 </p>
             </div>
-            <div class="row-center">
+            <div class="row-center content-screen">
                 <div class="col span-1-of-4 sub-content">
                    <i class="ion-clock" ></i>
                     <h3>
@@ -80,7 +87,7 @@
         </section>
         <div style="clear: both"></div>
         <section class="section-two">
-            <div class="trend-content" >Trending on the Hot-List now !</div>
+            <div class="trend-content" ><span>Trending on the Hot-List now !</span></div>
             <ul class="figure-col">
                 <li>
                     <figure class="floatimage">
@@ -137,22 +144,22 @@
         <div style="clear: both"></div>
         <section class="section-three">
             <div class="section-three-main-content" >
-                Create a Hot-List account now to enjoy our services
+                <span>Create a Hot-List account now</span>
             </div>
             <div class="col span-1-of-2 section-three-content">
                 <img src="resources/img/desktop_screen.jpg">
             </div>
             <div class="col span-1-of-2 section-three-content">
                 <div class="section-three-number">
-                    <div>1</div>
+                    <div><span>1</span></div>
                     <p>Choose the subscription mode as we offer Prime and Non-Prime</p>
                 </div>
                 <div class="section-three-number">
-                    <div>2</div>
+                    <div><span>2</span></div>
                     <p>Provide an unique identification ID for your Hot-List account</p>
                 </div>
                 <div class="section-three-number">
-                    <div>3</div>
+                    <div><span>3</span></div>
                     <p>Click on sign-up and now you enjoy all the benefits we offer</p>
                 </div>
                 <div class="section-three-button">
@@ -166,46 +173,45 @@
         <div style="clear: both" ></div>
         <section class="section-four">
             <div class="section-four-content">
-                shopping cart <span>
-                <i class="ion-android-cart"></i>
-                </span>
+                <div>
+                    <span>shopping cart</span>
+                    <i class="ion-android-cart"></i>
+                </div> 
             </div>
             <div class="cartlist-main">
                 <div class="cartlist">
-                <img src="resources/img/img10.jpg" alt="image_10">
-                <h3>Second To Run</h3>
+                <figure>
+                    <img src="resources/img/img10.jpg" alt="image_10">    
+                </figure>
+                <h3>Second To Run</h3>    
                 <div class="section-four-subcontent">
                         <i class="ion-compose"></i>
-                        Chetan Bhagat
+                        <span>Chetan Bhagat</span>
                 </div>
                 <div class="section-four-subcontent usd-dollar-span">
                         <i class="ion-social-usd"></i>
-                         250 USD
-                </div>
-                <div class="section-four-subcontent">
-                        <i class="ion-android-people"></i>
-                        420+ happy customers
+                         <span>250 USD</span>
                 </div>
                     <div class="addcart-item">
-                    <div class="add"><h6>+</h6></div>
-                    <div class="add-cart"><h6>add to cart</h6></div>
-                    <div class="delete"><h6>-</h6></div>
-                </div>
+                        <div class="add"><h6>+</h6></div>
+                        <div class="add-cart"><h6>add to cart</h6></div>
+                        <div class="delete"><h6>-</h6></div>
+                    </div>
             </div>
             <div class="cartlist">
-                <img src="resources/img/img07.jpg" alt="image_10">
-                <h3>Curses & Kisees</h3>
+                <figure>
+                    <img src="resources/img/img07.jpg" alt="image_10">
+                </figure>
+                <div>
+                    <h3>Curses  Kisees</h3>
+                </div>
                 <div class="section-four-subcontent">
                     <i class="ion-compose"></i>
-                    Sandhya Menon
+                    <span>Sandhya Menon</span>
                 </div>
                 <div class="section-four-subcontent usd-dollar-span">
                     <i class="ion-social-usd"></i>
-                    550 USD
-                </div>
-                <div class="section-four-subcontent">
-                    <i class="ion-android-people"></i>
-                    500+ happy customers
+                    <span>550 USD</span>
                 </div>
                 <div class="addcart-item">
                     <div class="add"><h6>+</h6></div>
@@ -214,19 +220,17 @@
                 </div>
             </div>
             <div class="cartlist">
-                <img src="resources/img/img05.jpg" alt="image_10">
+                <figure>
+                    <img src="resources/img/img05.jpg" alt="image_10">
+                </figure>
                 <h3>Death Comes to Call</h3>
                 <div class="section-four-subcontent">
                     <i class="ion-compose"></i>
-                    Clare Chase
+                    <span>Clare Chase</span>
                 </div>
                 <div class="section-four-subcontent usd-dollar-span">
                     <i class="ion-social-usd"></i>
-                    150 USD
-                </div>
-                <div class="section-four-subcontent">
-                    <i class="ion-android-people"></i>
-                    300+ happy customers
+                    <span>150 USD</span>
                 </div>
                 <div class="addcart-item">
                     <div class="add"><h6>+</h6></div>
@@ -235,19 +239,17 @@
                 </div>
             </div>
             <div class="cartlist">
-                <img src="resources/img/img09.png" alt="image_10">
+                <figure>
+                    <img src="resources/img/img09.png" alt="image_10">
+                </figure>
                 <h3>The girl in room 105</h3>
                 <div class="section-four-subcontent">
                     <i class="ion-compose"></i>
-                    Chetan Bhagat
+                    <span>Chetan Bhagat</span>
                 </div>
                 <div class="section-four-subcontent usd-dollar-span">
                     <i class="ion-social-usd"></i>
-                    350 USD
-                </div>
-                <div class="section-four-subcontent">
-                    <i class="ion-android-people"></i>
-                    220+ happy customers
+                    <span>350 USD</span>
                 </div>
                 <div class="addcart-item">
                     <div class="add"><h6>+</h6></div>
@@ -289,7 +291,9 @@
         </section>
         <div style="clear: both"></div>
         <section class="section-six" >
-            <h2>Membership Zone <span><i class="ion-ios-people" ></i></span></h2>
+            <div>
+                <h2>Membership Zone <span><i class="ion-ios-people" ></i></span></h2>
+            </div>
             <div class="premium-list">
                 <div class="premium-list-content_one" >
                     <div class="col span-1-of-2 membership-list">
@@ -403,8 +407,8 @@
             </div>
         </section>
         <footer>
-            <div class="row-center">
-                <div class="col span-1-of-3 footer-list-one">
+            <div class="row-center footer-class">
+                <div class="footer-list-one">
                     <ul class="footer-content">
                         <li><a href="#">About-Us</a></li>
                         <li><a href="#">Customer-Support</a></li>
@@ -412,7 +416,7 @@
                         <li><a href="#">Home</a></li>
                     </ul>
                 </div>
-                <div class="col span-1-of-3" >
+                <div class="footer-list-three" >
                     <div class="footer-copyright">
                         <p>Copyright &#169; by HotList India. All rights reserved</p>
                     </div>
@@ -420,13 +424,12 @@
                         <p>Designed by AJAR <img src="resources/img/website_company_logo.jpg"></p>
                     </div>
                 </div>
-                <div class="col span-1-of-3 footer-list-two">
+                <div class="footer-list-two">
                     <ul class="footer-content">
                         <li><a href="#"><i class="ion-social-facebook"></i></a></li>
                         <li><a href="#"><i class="ion-social-instagram"></i></a></li>
                         <li><a href="#"><i class="ion-social-twitter"></i></a></li>
                         <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                        
                     </ul>
                 </div>
             </div>

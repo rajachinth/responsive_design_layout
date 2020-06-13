@@ -1,0 +1,606 @@
+@media only screen and (max-width:480px) {
+    html, body {
+        overflow-x: hidden;
+    }
+ 
+    /*navigation header*/
+    
+    .nav-bar div ul li a {display: none;}
+        
+    div.header-title-content h1 {
+        all: unset;
+        padding-left: 150px;
+        color: white;
+    }
+    div.header-title-content div a {
+        
+    }
+    div.header-title-content div {
+        padding-left: 150px;
+        width: 100%;
+    }
+    div.header-title-content div a.btn-hotlist {
+        width: 30%;
+        font-size: 80%;
+    }
+    div.header-title-content div a.btn-hotlist:hover {
+        background-color: #5d738a;
+        border: 1px #5d738a;
+        transform: scale3d(1.1,1.1,1.1);
+    }
+    div.header-title-content div a.btn-login {
+        width: 30%;
+        font-size: 80%;
+    }
+    div.header-title-content div a.btn-login:hover {
+        background-color: #cf4310;
+        border: 1px #cf4310;
+        transform: scale3d(1.1,1.1,1.1);
+    }
+    
+    /*welcome screen*/
+    
+    .section-one div h2 { 
+        font-size: 80% !important;
+    }
+    
+    /*trending screen*/
+    
+    .section-two div:first-child {width: 100%;}
+    .section-two div.trend-content span {
+        text-align: center;
+        font-size: 53% !important;
+    }
+    
+    /*login & sign up screen*/
+    
+    .section-three div.section-three-main-content span {font-size: 53% !important ;}
+  
+    .section-three div.section-three-content div.section-three-number div {
+        width: 10% !important;
+        height: 40px!important;
+        padding: 0px !important;
+        border-radius: 100%;
+        margin-top: 5px;
+    }
+    .section-three div.section-three-content div.section-three-number div span {
+        font-size: 80%;
+    }
+    .section-three div.section-three-content div.section-three-number p {
+        font-size: 80% !important;
+    }
+    .section-three div.section-three-content div.section-three-button button{
+        margin-left: 5%!important;
+        font-size: 80%;
+    }   
+    
+    /*shopping cart*/
+    
+    .section-four div.cartlist-main div.cartlist {
+        width: 45% !important;
+    }
+    .section-four div.section-four-content {
+        width: 150px !important;
+        font-size: 130%;
+    }
+    .section-four div.section-four-content span {
+        font-size: 60%;
+    }
+    .cartlist-main div.cartlist figure img {
+        height: 150px;
+        width: 130px !important;
+        margin: 0 10% !important;
+    }
+    .cartlist-main div.cartlist div.addcart-item {
+        width: 130px !important;
+        margin: 0 10% !important;
+    }
+    .cartlist-main div.cartlist h3 {
+        width: 130px !important;
+        font-size: 70% !important;
+        word-spacing: 1px;
+        margin: 0 10% !important;
+    }
+    .cartlist-main div.cartlist div span {font-size: 80%;}
+    .cartlist-main div.cartlist span {
+        font-size: 85%;
+        word-spacing: 1px;
+    }
+    .cartlist-main div.cartlist i 
+    {
+        margin-left:10% !important;
+        font-size: 80% !important;
+        word-spacing: 1px;
+    }
+    .cartlist-main div.cartlist h6 {
+        font-size: 70% !important;
+        padding: 0px;
+        margin: 0 2px;
+    }
+    
+    /*renowned authors*/
+    
+    .section-five div.section-five-main-content h2 {font-size: 80%!important; width: 330px!important;}
+    .section-five div.author-list blockquote p {font-size: 70%!important; }
+    .section-five div.author-list blockquote cite {padding-bottom: 30px; padding-top: 10px;}
+    
+    /*membership zone*/
+    
+    .section-six div:first-child h2 {
+        font-size: 80%!important; 
+        width:170px !important;
+    }
+    .section-six div:last-child {width: 100%;margin: 0;}
+    
+    .section-six div.premium-list div.premium-list-content_one div:first-child{
+        width: 80%;
+        transform: translateX(-40%);
+    }
+    .section-six div.premium-list div.premium-list-content_two div:last-child{
+        width: 80%;
+    }
+    .section-six div.premium-list div.premium-list-content_one div.membership-list div:first-child {width: 100%; margin-left: 40%}
+    
+    .premium-list div div.membership-register {width: 100%; margin: 0}
+    .premium-list div div.membership-register button {font-size: 50%;}
+    .premium-list div:last-child div.membership-list div:last-child {width: 100%;}
+    .premium-list div div.membership-features li {font-size: 70%;}
+    .premium-list div div.membership-features li i {padding-right: 5px;}
+    
+     /*registration form*/
+    
+    section.section-seven {height: 85vh !important;}
+    .section-seven div.section-seven-title h2 {
+        font-size: 80% !important;
+        width: 150px !important;
+    }
+    .section-seven div:last-child form {
+        width: 90%;
+    }
+    .section-seven div:last-child form div {
+        padding-bottom: 10px;
+    }
+    
+    /*footer*/
+    
+    .footer-class div.footer-list-one li {
+        width: 100%;
+        display: block;
+    }
+    .footer-list-one li a {
+        padding-right: 0 !important;
+    }
+    .footer-class div.footer-copyright {
+        font-size: 120% !important;
+    }
+    .footer-class div.footer-designlogo {
+        font-size: 120% !important;
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width:767px) {
+    html, body {
+        font-size: 10px;
+        overflow-x: hidden;
+    }
+    
+    /*navigation header*/
+    
+    .nav-bar div img {width: 20%; height: 20%;}
+    .nav-bar div ul li a {display: none;}
+    
+    header div.header-title-content h1 {
+        font-size: 110%;
+        width: 100%;
+        margin-left: 25%
+    }
+    header div.header-title-content div a {
+        width: 30%;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        font-size: 90%;
+    }
+    header div.header-title-content div {
+        margin-left: 25%;
+        width: 100%;
+    }
+    
+    /*welcome screen*/
+    
+    .section-one div h2 { 
+        font-size: 90%; 
+        width: 60%;
+    }
+    .section-one div p { font-size: 80%;}
+    .content-screen div p {font-size: 80%;}
+    .content-screen div.sub-content {
+        width: 100%;
+        padding: 5px 0;
+    }
+    .content-screen div.sub-content h3 {font-size:80%;}
+    .content-screen div.sub-content i {font-size:100%;}
+ 
+    .row-center 
+    {
+        width: 100%;
+    } 
+    
+    p.main-content {     
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    /*trending screen*/
+    
+    .section-two div.trend-content span {font-size: 60%;}
+    .section-two ul li figure img {
+        height: 100px;
+        width: 100%;
+    }
+    
+    /*login & sign up screen*/
+    
+    .section-three div.section-three-main-content {
+        width: 100%;
+        word-spacing: 1px;
+    }
+    .section-three div.section-three-main-content span {font-size: 60%;}
+    .section-three div.section-three-content {
+        width: 100%;
+    }
+    .section-three div.section-three-content div.section-three-number div {
+        width: 8%;
+        height: 40px;
+        font-size: 120%;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    .section-three div.section-three-content div.section-three-number p {
+        font-size: 80%;
+    }
+    .section-three div.section-three-content div.section-three-button button{
+        margin-left: 10%;
+    }
+    .section-three div.section-three-content img {
+        width: 28%;
+        height: 150px;
+        margin-left: 20%;
+    }
+    
+    /*shopping cart*/
+    
+    .section-four div.cartlist-main div.cartlist {
+        width: 45%;
+    }
+    .section-four div.section-four-content {
+        width: 200px;
+    }
+    .section-four div.section-four-content span {
+        font-size: 60%;
+    }
+    .cartlist-main div.cartlist figure img {
+        height: 150px;
+        width: 150px;
+        margin: 0 20%;
+    }
+    .cartlist-main div.cartlist div.addcart-item {
+        width: 150px;
+        margin: 0 20%;
+    }
+    .cartlist-main div.cartlist h3 {
+        width: 150px;
+        font-size: 90%;
+        word-spacing: 1px;
+        margin: 0 20%;
+    }
+    .cartlist-main div.cartlist span {
+        font-size: 85%;
+        word-spacing: 1px;
+    }
+    .cartlist-main div.cartlist i 
+    {
+        margin-left:20%;
+        font-size: 85%;
+        word-spacing: 1px;
+    }
+    .cartlist-main div.cartlist h6 {
+        font-size: 75%;
+        padding: 2px;
+    }
+    
+    /*renowned authors*/
+    
+    section.section-five {height: 100vh;}
+    .section-five div.section-five-main-content h2 {font-size: 90%; width: 400px;}
+    .section-five div.author-list {width: 100%;}
+    .section-five div.author-list blockquote p {font-size: 80%;}
+    
+    /*shopping cart*/
+    
+    .section-four div.cartlist-main { width: 100%;margin: 0 0;}
+    .cartlist-main div.cartlist h3 {
+        font-size: 75%;
+        word-spacing: 1px;
+    }
+    .cartlist-main div.cartlist span,i {
+        font-size: 85%;
+        word-spacing: 1px;
+    }
+    .cartlist-main div.cartlist h6 {
+        font-size: 75%;
+        padding: 2px;
+    }
+    
+    /*membership zone*/
+    
+    section.section-six {height: 60vh;}
+    .col {width: 100%;display: block;}
+    .section-six div:first-child h2 {
+        font-size: 90%; 
+        font-weight: bold;
+        width:200px;
+    }
+    .section-six div:last-child {width: 100%;margin: 0;}
+    
+    .section-six div.premium-list div.premium-list-content_one div:first-child{
+        width: 80%;
+        transform: translateX(-40%);
+    }
+    .section-six div.premium-list div.premium-list-content_two div:last-child{
+        width: 80%;
+    }
+    .section-six div.premium-list div.premium-list-content_one div.membership-list div:first-child {width: 100%; margin-left: 40%}
+    
+    .premium-list div div.membership-register {width: 100%; margin: 0}
+    .premium-list div div.membership-register button {font-size: 50%;}
+    .premium-list div:last-child div.membership-list div:last-child {width: 100%;}
+    
+    /*registration form*/
+    
+    section.section-seven {height: 65vh;}
+    .section-seven div.section-seven-title h2 {
+        font-size: 90%;
+        width: 180px;
+    }
+    .section-seven div:last-child form {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width:1100px) {
+    
+    html { font-size: 14px;overflow-x: hidden;}
+    
+    /*footer*/
+    .footer-class div.footer-list-one li {
+        display: block;
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .footer-class div.footer-list-three p {
+        width: 100%;
+        font-size: 80%;
+    }
+    
+    /*registration form*/
+    
+    .section-seven div h2 {
+        font-size: 100%;
+        width: 25%;
+    }
+    .section-seven div form {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 90%;
+    }
+    
+    /*membership zone*/
+    
+    .section-six div h2 {
+        font-size: 100%; 
+        font-weight: bold;
+        width:30%;
+    }
+   .section-six div.premium-list div.premium-list-content_one {
+        width: 50%; 
+        margin-left: 20%;
+        position: absolute;
+    }
+    .section-six div.premium-list div.premium-list-content_two {
+        width: 50%; 
+        margin-left: 55%;
+        position: absolute;
+    }
+    .premium-list div div h3 {font-size: 90%;}
+    .premium-list div div p {font-size: 120%;}
+    .premium-list div div li {font-size: 75%;}
+    .premium-list div div button {font-size: 75%;}
+    
+    /*renowned authors*/
+    
+    .section-five div h2 {font-size: 100%; width: 55%;}
+    .section-five div blockquote p {font-size: 90%;}
+    
+    /*shopping cart*/
+    .section-four div.cartlist-main { width: 100%;margin: 0 0;}
+    .cartlist-main div.cartlist h3 {
+        font-size: 75%;
+        word-spacing: 1px;
+    }
+    .cartlist-main div.cartlist span,i {
+        font-size: 85%;
+        word-spacing: 1px;
+    }
+    .cartlist-main div.cartlist h6 {
+        font-size: 75%;
+        padding: 2px;
+    }
+    /*login/signup screen*/
+    
+    .section-three-main-content span {font-size: 75%;}
+    .section-three-content div p {font-size: 100%;}
+    .section-three-content div button {
+        font-size: 100%;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+    
+    /*trending screen*/
+    
+    .trend-content span {font-size: 75%;}
+    .figure-col li figure img {
+        height: 120px;
+        width: 100%;
+    }
+    
+    /*welcome screen*/
+    
+    .section-one h2 { 
+        font-size: 110%; 
+        width: 40%;
+    }
+    .section-one p { font-size: 100%;}
+    .row-center div p {font-size: :100%;}
+    .row-center div h3 {font-size:80%;}
+    .row-center div i {font-size:120%;}
+ 
+    .row-center 
+    {
+        width: 100%;
+    } 
+    
+    p.main-content {     
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    /*main screen*/
+    
+    .header-title-content h1 { 
+        font-size: 150%;
+        padding:0 100px;
+        width: 120%;
+    }
+    .header-title-content div { padding: 0 100px;}
+    
+    /*footer*/
+    
+    .footer-class div.footer-list-one li {
+        width: 100%;
+        display: block;
+    }
+    .footer-list-one li a {
+        padding-right: 20px;
+    }
+    .footer-list-two li a {
+        padding-left: 20px;
+        padding-bottom: 5px;
+        display: block;
+    }
+    .footer-class div.footer-copyright {
+        font-size: 100%;
+    }
+    .footer-class div.footer-designlogo {
+        font-size: 100%;
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width:1200px) {
+    html {
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+    .row-center 
+    {
+        width: 100%;
+    } 
+    
+    /*shopping cart*/
+    
+    .cartlist figure img {
+        height: 200px;
+        width: 100%;
+    }
+    .cartlist-main div h3 {font-size: 86%;}
+    .cartlist-main div .addcart-item h6 {font-size: 86%;}
+    /*membership register*/
+    
+    .premium-list {
+        font-size: 94%;
+    }
+    .register {
+        padding: 2px;
+        margin-left: 25%;
+        margin-top: 10px;
+        font-size: 90%;
+    }
+    .membership-details h3 {
+        font-size: 100%;
+        font-weight: 900;
+    }
+    .membership-details p {
+        font-size: 120%;
+        font-weight: 900;
+    }
+    .membership-details span {
+        font-size: 50%
+    }
+    
+    /*registration form*/
+    
+    .section-seven {
+        font-size: 100%;
+    }
+    
+    /*footer*/
+    
+    footer {
+        font-size: 90%;
+    }
+    .footer-list-one li {
+        width: 18%;
+        display: inline;
+    }
+    .footer-list-one li a {
+        padding-right: 20px;
+        font-size: 80%;
+    }
+    .footer-list-two li a {
+        padding-left: 20px;
+        font-size: 80%;
+    }
+    .footer-copyright {
+        font-size: 80%;
+    }
+    .footer-designlogo {
+        font-size: 80%;
+    }
+    
+    /*welcome screen*/
+    
+    p.main-content {     
+        width: 80%;
+        margin-left: 10%;
+    }
+    .sub-content p {
+    font-size: 90%;
+    }
+    .sub-content h3 {
+        text-align: center;
+        font-size: 90%;
+    }
+    .sub-content i {
+        font-size: 90%;
+    }
+    
+    /*trending screen*/
+    
+    .figure-col li figure img {
+        height: 200px;
+        width: 100%;
+    }
+}
+    
