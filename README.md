@@ -2,7 +2,7 @@
 
 Here it's a static responsive web application build on `HTML and CSS`.  
 
-➤ Deployed on `Heroku`, project is live on this [link](https://hotlist-store.herokuapp.com/) 
+➤ Deployed on `Heroku`, project is live on this  [link](https://hotlist-store.herokuapp.com/) 
 
 ● Build a responsive e-commerce web application using media-queries and set the breakpoints at `480px; 767px; 1100px; 1200px`;  
 
