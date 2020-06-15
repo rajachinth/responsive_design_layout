@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 *:focus {
@@ -56,6 +57,7 @@ h3 {
     color: white;
 }
 header {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.71)),to(rgba(0, 0, 0, 0.71))),url(img/background_image2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)),url(img/background_image2.jpg);
     height: 100vh;
     background-size: cover;
@@ -67,6 +69,7 @@ header {
     width:550px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-80%,-50%);
     transform: translate(-80%,-50%)
 }
 .btn:link, .btn:visited {
@@ -81,21 +84,29 @@ header {
 .btn-login:link {
     background-color: #EE5A24;
     border: 1px #EE5A24;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
     transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
 }
 .btn-login:hover {
     background-color: #cf4310;
     border: 1px #cf4310;
+    -webkit-transform: scale3d(1.2,1.2,1.2);
     transform: scale3d(1.2,1.2,1.2);
 }
 .btn-hotlist:link {
     background-color: #778ca3;
     border: 1px #778ca3;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
     transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
 }
 .btn-hotlist:hover {
     background-color: #5d738a;
     border: 1px #5d738a;
+    -webkit-transform: scale3d(1.2,1.2,1.2);
     transform: scale3d(1.2,1.2,1.2);
 }
 .header-brand-logo {
@@ -110,6 +121,7 @@ header {
     float: right;
     list-style: none;
     margin-top: 65px;
+    -webkit-transform: translate(0,-50%);
     transform: translate(0,-50%);
 }
 .header-navbar-list li {
@@ -126,6 +138,55 @@ header {
 .header-navbar-list li:hover {
     border-bottom: 3px solid #cf4310;
 }
+
+/*sticky navigation*/
+
+.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.69);
+    z-index: 99999;
+}
+.sticky .header-navbar-list
+{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+}
+.sticky .header-navbar-list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    color: white;
+    font-weight: bold;
+}
+.sticky .header-brand-logo {
+    height: 70px;
+    width: auto;
+    border-radius: 100px;
+    float: left;
+    margin: 15px 0;
+    text-align: center;
+}
+
+ .sticky .mobile-nav {
+        color: white;
+        float: right !important;
+        padding: 10px 0;
+        display: none;
+        position: absolute;
+        left: 90%;
+    }
+    .sticky .mobile-nav i {
+        font-size: 50px;
+        cursor: pointer;
+    }
+/***************************************************/
+
 .section-one {
     color: black;
     padding: 40px 0;
@@ -146,12 +207,13 @@ header {
     text-align: left;
 }
 .sub-content h3 {
-    text-align: center
+    text-align: center;
 }
 .sub-content i {
     font-size: 200%;
     color: #cf4310;
     margin-left: 45%;
+    -webkit-transform: translate(-50%,0);
     transform: translate(-50%,0);
     padding-bottom: 5px;
 }
@@ -160,6 +222,7 @@ header {
     width: 80%;
     margin: 0;
     margin-left: 50%;
+    -webkit-transform: translate(-50%,0);
     transform: translate(-50%,0);
 }
 .figure-col li {
@@ -176,10 +239,15 @@ header {
     border-radius: 20px;
     background-color: black;
     opacity: 1;
+    -webkit-transform: scale(0.90);
     transform: scale(0.90);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
 }
 .floatimage img:hover {
+    -webkit-transform: scale(1.05);
     transform: scale(1.05);
     cursor: pointer;
     opacity: 1;
@@ -194,7 +262,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 20px;
-    color: #cf4310
+    color: #cf4310;
 }
 .section-three {
    padding-top: 10px;
@@ -220,14 +288,12 @@ header {
     width: 50%;
     padding-left: 0;
     height: auto;
-    transform: translateX(50%)
-    
-}
-.section-three-content:first-child {
-    
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
 }
 .section-three-content:last-child {
     width: 47%;
+    -webkit-transform: translate(0,0);
     transform: translate(0,0);
 }
 .section-three-number {
@@ -248,7 +314,7 @@ header {
     margin-bottom: 10px;
 }
 .section-three-number p {
-    padding: 10px
+    padding: 10px;
 }
 .section-three-button {
     padding-left: 25%;
@@ -259,15 +325,20 @@ header {
     width: 80px;
     border: 3px solid white;
     height: 80px;
+    background-image:-webkit-gradient(linear,left top, left bottom,from(black),to(black));
     background-image:linear-gradient(black,black);
     border-radius: 100px;
     font-size: 25px;
     text-align: center;
     margin-left:10px;
     float: left;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
     transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
 }
 .section-three-button button:hover {
+    -webkit-transform: scale3d(1.2,1.2,1.2);
     transform: scale3d(1.2,1.2,1.2);
     cursor: pointer;
 }
@@ -321,6 +392,7 @@ header {
     margin-right:5px;
     width: 50%;
     padding:0 10px;
+    -webkit-transition: opacity 2s;
     transition: opacity 2s;
 }
 .section-four-subcontent {
@@ -370,6 +442,7 @@ header {
     margin-left: 2px;
 }
 .section-five {
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url(img/author_background.jpg);
     background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/author_background.jpg);
     background-size: cover;
     height:70vh;
@@ -423,8 +496,6 @@ cite img {
     vertical-align: middle;
     margin-right: 20px;
 }
-.author-list {
-}
 .section-six {
     padding: 30px 0;
     height: 75vh;
@@ -445,7 +516,7 @@ cite img {
     display: block;
     height: 5px;
     content: :" ";
-    background-color:#cf4310;;
+    background-color:#cf4310;
     margin-top: 10px;
     border-radius: 50px;
 }
@@ -467,6 +538,7 @@ cite img {
 }
 .membership-list {
     background-color: white;
+    -webkit-box-shadow: 3px 3px 3px grey;
     box-shadow: 3px 3px 3px grey;
     border-radius: 5px;
     margin-top: 20px;
@@ -494,7 +566,7 @@ cite img {
     font-weight: 900;
 }
 .membership-details span {
-    font-size: 70%
+    font-size: 70%;
 }
 .membership-features {
     padding-top: 10px;
@@ -658,4 +730,17 @@ footer {
     border-radius: 50%;
     margin-left: 5px;
     vertical-align: middle;
+}
+
+/* mobile navigation */
+
+.mobile-nav {
+    color: white;
+    float: right;
+    padding: 10px 0;
+    display: none;
+}
+.mobile-nav i {
+    font-size: 50px;
+    cursor: pointer;
 }

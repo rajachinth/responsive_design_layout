@@ -2,7 +2,49 @@
     html, body {
         overflow-x: hidden;
     }
- 
+
+    /* mobile navigation icon */
+    
+    .nav-bar a.mobile-nav {
+        padding: 10px 0;
+        display: inline;
+        position: absolute;
+        left: 85% !important;
+    }
+    .nav-bar a.mobile-nav i {
+        font-size: 40px!important;
+        cursor: pointer;
+    }
+    
+    /*navigation header*/
+    
+    /*mobile navigation*/
+    
+    /******************************/
+    .nav-bar div ul {display: none;}
+    
+    .nav-bar div img {width: 20%; height: 20%;}
+    .nav-bar div ul li a {
+        display: block;
+        color: white!important;
+    }
+    .nav-bar div ul {
+        margin-right: 90px;
+        margin-top: 60px;
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .sticky .nav-bar a.mobile-nav {left: 80%!important;}
+    .sticky .nav-bar div ul {
+        margin-right: 90px;
+        margin-top: 60px;
+    }
+    .sticky {
+       height: 135px; 
+       background-color: rgba(0, 0, 0, 0.52) !important;
+    }
+    /*******************************/
+    
     /*navigation header*/
     
     .nav-bar div ul li a {display: none;}
@@ -11,9 +53,6 @@
         all: unset;
         padding-left: 150px;
         color: white;
-    }
-    div.header-title-content div a {
-        
     }
     div.header-title-content div {
         padding-left: 150px;
@@ -26,6 +65,7 @@
     div.header-title-content div a.btn-hotlist:hover {
         background-color: #5d738a;
         border: 1px #5d738a;
+        -webkit-transform: scale3d(1.1,1.1,1.1);
         transform: scale3d(1.1,1.1,1.1);
     }
     div.header-title-content div a.btn-login {
@@ -35,6 +75,7 @@
     div.header-title-content div a.btn-login:hover {
         background-color: #cf4310;
         border: 1px #cf4310;
+        -webkit-transform: scale3d(1.1,1.1,1.1);
         transform: scale3d(1.1,1.1,1.1);
     }
     
@@ -134,14 +175,15 @@
     
     .section-six div.premium-list div.premium-list-content_one div:first-child{
         width: 80%;
+        -webkit-transform: translateX(-40%);
         transform: translateX(-40%);
     }
     .section-six div.premium-list div.premium-list-content_two div:last-child{
         width: 80%;
     }
-    .section-six div.premium-list div.premium-list-content_one div.membership-list div:first-child {width: 100%; margin-left: 40%}
+    .section-six div.premium-list div.premium-list-content_one div.membership-list div:first-child {width: 100%; margin-left: 40%;}
     
-    .premium-list div div.membership-register {width: 100%; margin: 0}
+    .premium-list div div.membership-register {width: 100%; margin: 0;}
     .premium-list div div.membership-register button {font-size: 50%;}
     .premium-list div:last-child div.membership-list div:last-child {width: 100%;}
     .premium-list div div.membership-features li {font-size: 70%;}
@@ -183,16 +225,53 @@
         font-size: 10px;
         overflow-x: hidden;
     }
+    /* mobile navigation icon */
+    
+    .nav-bar a.mobile-nav {
+        color: white;
+        float: right !important;
+        padding: 10px 0;
+        display: inline;
+        position: absolute;
+        left: 90%;
+    }
+    .nav-bar a.mobile-nav i {
+        font-size: 50px;
+        cursor: pointer;
+    }
     
     /*navigation header*/
     
+    /*mobile navigation*/
+    
+    /******************************/
+    .nav-bar div ul {display: none;}
+    
     .nav-bar div img {width: 20%; height: 20%;}
-    .nav-bar div ul li a {display: none;}
+    .nav-bar div ul li a {
+        display: block;
+        color: white!important;
+    }
+    .nav-bar div ul {
+        margin-right: 90px;
+        margin-top: 60px;
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .sticky .nav-bar div ul {
+        margin-right: 90px;
+        margin-top: 60px;
+    }
+    .sticky {
+       height: 135px; 
+       background-color: rgba(0, 0, 0, 0.52) !important;
+    }
+    /*******************************/
     
     header div.header-title-content h1 {
         font-size: 110%;
         width: 100%;
-        margin-left: 25%
+        margin-left: 25%;
     }
     header div.header-title-content div a {
         width: 30%;
@@ -205,7 +284,18 @@
         margin-left: 25%;
         width: 100%;
     }
-    
+    div.header-title-content div a.btn-hotlist:hover {
+        background-color: #5d738a;
+        border: 1px #5d738a;
+        -webkit-transform: scale3d(1.1,1.1,1.1);
+        transform: scale3d(1.1,1.1,1.1);
+    }
+    div.header-title-content div a.btn-login:hover {
+        background-color: #cf4310;
+        border: 1px #cf4310;
+        -webkit-transform: scale3d(1.1,1.1,1.1);
+        transform: scale3d(1.1,1.1,1.1);
+    }
     /*welcome screen*/
     
     .section-one div h2 { 
@@ -213,7 +303,7 @@
         width: 60%;
     }
     .section-one div p { font-size: 80%;}
-    .content-screen div p {font-size: 80%;}
+    .content-screen div.sub-content p {font-size: 80%;}
     .content-screen div.sub-content {
         width: 100%;
         padding: 5px 0;
@@ -345,14 +435,15 @@
     
     .section-six div.premium-list div.premium-list-content_one div:first-child{
         width: 80%;
+        -webkit-transform: translateX(-40%);
         transform: translateX(-40%);
     }
     .section-six div.premium-list div.premium-list-content_two div:last-child{
         width: 80%;
     }
-    .section-six div.premium-list div.premium-list-content_one div.membership-list div:first-child {width: 100%; margin-left: 40%}
+    .section-six div.premium-list div.premium-list-content_one div.membership-list div:first-child {width: 100%; margin-left: 40%;}
     
-    .premium-list div div.membership-register {width: 100%; margin: 0}
+    .premium-list div div.membership-register {width: 100%; margin: 0;}
     .premium-list div div.membership-register button {font-size: 50%;}
     .premium-list div:last-child div.membership-list div:last-child {width: 100%;}
     
@@ -437,7 +528,7 @@
         font-size: 75%;
         padding: 2px;
     }
-    /*login/signup screen*/
+    /*login or signup screen*/
     
     .section-three-main-content span {font-size: 75%;}
     .section-three-content div p {font-size: 100%;}
@@ -463,7 +554,7 @@
         width: 40%;
     }
     .section-one p { font-size: 100%;}
-    .row-center div p {font-size: :100%;}
+    .row-center div p {font-size:100%;}
     .row-center div h3 {font-size:80%;}
     .row-center div i {font-size:120%;}
  
